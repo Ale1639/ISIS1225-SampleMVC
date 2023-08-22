@@ -69,6 +69,7 @@ def newList(datastructure='SINGLE_LINKED',
     Raises:
         Exception
     """
+    
     try:
         module = listSelector(datastructure)
         lst = module.newList(
